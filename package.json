@@ -1,0 +1,19 @@
+{
+  "name": "eco",
+  "version": "1.0.0",
+  "description": "Definition and Documentation of Eco Design",
+  "main": "n/a",
+  "author": "",
+  "license": "GPLv3",
+  "devDependencies": {
+    "app-root-path": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-data": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-swig": "^0.7.4",
+    "gulp-yaml": "^0.2.4",
+    "lodash": "^3.10.1",
+    "require-dir": "^0.3.0"
+  }
+}
