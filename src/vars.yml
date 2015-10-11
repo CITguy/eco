@@ -60,7 +60,7 @@ Colors: # 2.0 Color Palette
     red: &red '#fc0f1d'
     warn-red-hover: &warnRedHover '#fd0f12' # saturate(warn-red, 15%)
     warn-red: &warnRed '#eb2124'
-Type: &type
+Type:
   close-color-hover: &typeCloseColorHover '#cccccc' # darken(close-color-normal, 10%)
   close-color-normal: &typeCloseColorNormal '#e5e5e5'
   color-normal: &typeColorNormal '#404040'
@@ -93,18 +93,18 @@ Common:
   input-min-height: &inputMinHeight '26px'
   input-placeholder-color: &inputPlaceholderColor '#a9a9a9'
   input-width: &inputWidth '250px'
-Atoms: &atoms
-  App: &atomApp
+Atoms:
+  App:
     background: *gray950
-  AppHelp: &atomAppHelp
+  AppHelp:
     background: *gray50
     border-color: '#424242'
-  AppMenu: &atomAppMenu
+  AppMenu:
     background: '#1a1a1a'
-  Breadcrumbs: &atomBreadcrumbs
+  Breadcrumbs:
     arrow-width: '9px'
     height: '1.2em'
-  Button: &atomButton
+  Button:
     background-disabled: '#cfd2d4'
     cancel-background-hover: '#a3a3a3' # lighten(cancel-background, 10%)
     cancel-background: *cancelGray
@@ -117,10 +117,10 @@ Atoms: &atoms
     positive-background-hover: '#19d176' # lighten(positive-background, 6%)
     positive-background: '#16b667'
     spinner-background: *white
-  ButtonGroup: &atomButtonGroup
+  ButtonGroup:
     border-radius: '4px'
     border: '2px solid #eaeaea'
-  Checkbox: &atomCheckbox
+  Checkbox:
     background-color-selected: *blue
     background-color: *inputBackgroundNormal
     border-color-selected: *blue
@@ -129,32 +129,32 @@ Atoms: &atoms
     color: *white
     font-size: '12px'
     size: &checkboxSize '16px'
-  Collapse: &atomCollapse
+  Collapse:
     border: '#c7c7c7'
-  FieldName: &atomFieldName
+  FieldName:
     color: *inputLabelColor
     font-size: '12px'
     symbol-color: *inputColorError
-  Form: &atomForm
+  Form:
     font-size: *typeFontSize
     gutter: '16px' # best if divisible by 4
     section-min-width: '400px'
     field-max-width: '400px'
     field-min-width: '250px'
-  Metadata: &atomMetadata
+  Metadata:
     definition-color: '#727272'
     definition-font-size: '16px'
     gutter: '18px'
     label-color: *inputLabelColor
     label-font-size: '13px'
-  Modal: &atomModal
+  Modal:
     body-padding: '50px'
     padding: '30px'
-  Number: &atomNumber
+  Number:
     width: &numberWidth '150px'
-  Pagination: &atomPagination
+  Pagination:
     color: '#ababab'
-  Progressbar: &atomProgressbar
+  Progressbar:
     background: *gray950
     bar-background: *lightBlue
     bar-secondary-background: *infoBlue
@@ -164,7 +164,7 @@ Atoms: &atoms
     font-size-small: '12px' # ceil(base * 0.85)
     line-height-base: 1.428571429; # 20/14
     line-height-computed: '18px' # floor((font-size-base * line-height-base))
-  Radio: &atomRadio
+  Radio:
     background-color: *inputBackgroundNormal
     border-width-invalid: '2px'
     border-width: '1px'
@@ -178,7 +178,7 @@ Atoms: &atoms
     tick-margin: '3px'
     tick-size-invalid: '8px' # (size - (2 * border-width-invalid) - (2 * tick-margin-invalid))
     tick-size: '8px' # (size - (2 * border-width) - (2 * tick-margin))
-  SearchBox: &atomSearchBox
+  SearchBox:
     background-disabled: *inputBackgroundDisabled
     background: *inputBackgroundNormal
     border-color: *inputBorderColorNormal
@@ -194,7 +194,7 @@ Atoms: &atoms
     padding-horizontal: '5px'
     padding-vertical: '3px'
     width: *inputWidth
-  Select: &atomSelect
+  Select:
     background-disabled: *inputBackgroundDisabled
     background: *white
     border-color-disabled: *inputBorderColorNormal
@@ -212,7 +212,7 @@ Atoms: &atoms
     trigger-color: '#aaaaaa'
     trigger-width: '26px' # height
     width: '250px'
-  Table: &atomTable
+  Table:
     background-alt: '#f2f2f2'
     background: *white
     border-color: '#e1e0df'
@@ -223,11 +223,11 @@ Atoms: &atoms
     header-color: *white
     row-selected-background: '#c6e4c8'
     subtable-border-color: '#adadad'
-  Tabs: &atomTabs
+  Tabs:
     border-color: '#4480c1'
-  Tag: &atomTag
+  Tag:
     height: '24px'
-  ToggleSwitch: &atomToggleSwitch
+  ToggleSwitch:
     blur-dist: '1.08em' # edge-spacing
     blur-spread: '-0.36em' # ((edge-spacing/3) * -1)
     border-color: '#9a9a9a' # darken(color-off, 10%)
@@ -239,7 +239,7 @@ Atoms: &atoms
     knob-color: *white
     knob-size: '1.2em'
     line-height: '1.5em' # (knob-size * 1.25)
-  Tooltip: &atomTooltip
+  Tooltip:
     arrow-color: '#878787'
     arrow-width: '5px'
     background: '#878787'
@@ -248,5 +248,5 @@ Atoms: &atoms
     max-width: '200px'
     opacity: 1
     z-index: 1070
-  Well: &atomWell
+  Well:
     color: '#727272'
