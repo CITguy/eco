@@ -1,4 +1,4 @@
-# Eco (formerly EncoreUI)
+# Eco
 Definition and Documentation of Eco Design
 
 ## Defines
