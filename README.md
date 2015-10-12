@@ -28,10 +28,10 @@ Definition and Documentation of Eco Design
     * ~~`.atom-name`~~ (**spinal-case** class selector - may be confused with element selector)
 * Structure
 * Examples show full HTML markup for all possible states
-  * 2 spaces per indent
+  * **2 spaces** per indent
   * for elements with 3 or more attributes
-   * place attributes on their own line
-   * indent one level from opening tag
+    * place attributes on their own line
+    * indent one level from opening tag
 * Atom States:
   * Normal
   * Valid
