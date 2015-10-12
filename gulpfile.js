@@ -11,7 +11,7 @@ var requireDir = require('require-dir');
 
 global.gulp      = require('gulp');
 global.appRoot   = require('app-root-path');
-global.tmpPath   = appRoot + '/tmp';
+global.localPath = appRoot + '/local';
 global.buildPath = appRoot + '/dist';
 global.srcPath   = appRoot + '/src';
 

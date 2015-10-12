@@ -5,4 +5,4 @@ src/css/*
 src/scss/*
 src/less/variables.less
 src/vars.json
-tmp/*
+local/*
