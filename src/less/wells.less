@@ -1,0 +1,27 @@
+/*
+ # Well Styles
+ * Inspired from https://github.com/rackerlabs/encore-ui/blob/master/src/rxApp/common.less#L271-L295
+
+ ## NORMAL WELL
+ ```html
+ <div class="ecoWell">...</div>
+ ```
+
+ ## MODAL WELL
+ * Why is a modal well different?
+ * Should it be different?
+
+ ```html
+ <div class="ecoWell ecoWell-modal">...</div>
+ ```
+*/
+.ecoWell {
+  background-color: @Well-background-color;
+  box-shadow: 0 0 0 10px white inset;
+  color: @Well-color;
+  padding: 40px 50px;
+
+  &.ecoWell-modal {
+    padding: 20px 30px;
+  }//&.ecoModalWell
+}//.ecoWell

@@ -105,17 +105,17 @@ Atoms:
     arrow-width: '9px'
     height: '1.2em'
   Button:
-    background-disabled: '#cfd2d4'
-    cancel-background-hover: '#a3a3a3' # lighten(cancel-background, 10%)
     cancel-background: *cancelGray
-    color-disabled: &buttonColorDisabled '#f0efef'
+    cancel-background-hover: '#a3a3a3' # lighten(cancel-background, 10%)
     color: *white
-    default-background-hover: '#6999d0' # lighten(default-background, 10%)
     default-background: '#427fc4'
-    negative-background-hover: '#ff0000' # lighten(negative-background, 10%)
+    default-background-hover: '#6999d0' # lighten(default-background, 10%)
+    disabled-background: '#cfd2d4'
+    disabled-color: '#f0efef'
     negative-background: '#cc0000'
-    positive-background-hover: '#19d176' # lighten(positive-background, 6%)
+    negative-background-hover: '#ff0000' # lighten(negative-background, 10%)
     positive-background: '#16b667'
+    positive-background-hover: '#19d176' # lighten(positive-background, 6%)
     spinner-background: *white
   ButtonGroup:
     border-radius: '4px'
@@ -128,7 +128,7 @@ Atoms:
     color-selected: *white
     color: *white
     font-size: '12px'
-    size: &checkboxSize '16px'
+    size: '16px'
   Collapse:
     border: '#c7c7c7'
   FieldName:
@@ -151,7 +151,7 @@ Atoms:
     body-padding: '50px'
     padding: '30px'
   Number:
-    width: &numberWidth '150px'
+    width: '150px'
   Pagination:
     color: '#ababab'
   Progressbar:
@@ -250,3 +250,4 @@ Atoms:
     z-index: 1070
   Well:
     color: '#727272'
+    background-color: '#eeeeee'

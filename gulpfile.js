@@ -9,8 +9,11 @@
  */
 var requireDir = require('require-dir');
 
-global.appRoot = require('app-root-path');
+global.gulp      = require('gulp');
+global.appRoot   = require('app-root-path');
+global.tmpPath   = appRoot + '/tmp';
 global.buildPath = appRoot + '/dist';
+global.srcPath   = appRoot + '/src';
 
 // Require all tasks in gulp/tasks, including subfolders
 requireDir('./gulp/tasks', { recurse: true });

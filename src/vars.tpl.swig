@@ -1,8 +1,8 @@
 /* =========================
   COLORS
 ========================= */
-{% for section,colors in data.Colors -%}
-/* {{ section }} */
+{% for description,colors in data.Colors -%}
+/* {{ description }} */
 {% for key,val in colors -%}
 @@{{key}}: {{val}};
 {% endfor -%}
@@ -12,7 +12,7 @@
   TYPOGRAPHY
 ========================= */
 {% for key,val in data.Type -%}
-@@typo-{{key}}: {{val|safe}};
+@@type-{{key}}: {{val|safe}};
 {% endfor %}
 
 /* =========================
